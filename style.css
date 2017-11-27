@@ -1,0 +1,110 @@
+heading {
+  color: #bc1414;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50pt;
+  text-align: center;
+}
+
+<p> {
+  margin: 0;
+}
+
+<body> {
+  background-color: #efaaaa;
+}
+
+star {
+   position: relative;
+   display: block;
+   margin: 0 auto;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #f7d80c;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+
+star:before {
+   border-bottom: 80px solid #f7d80c;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+
+star:after {
+   position: absolute;
+   display: block;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #f7d80c;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+tree {
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+top {
+  height: 0;
+  width: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 100px solid #16850c;
+}
+
+
+middle {
+  height: 0;
+  width: 80px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 130px solid #16850c;
+}
+
+bottom {
+  height: 0;
+  width: 150px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid #16850c;
+}
+
+tree-part {
+  margin: 0 auto;
+}
+
+trunk {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: #8c370f;
+}
+
+<p> {
+  color: transparent;
+}
